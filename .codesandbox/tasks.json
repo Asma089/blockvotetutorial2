@@ -1,0 +1,73 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:contract": {
+      "name": "build:contract",
+      "command": "yarn build:contract",
+      "runAtStart": false
+    },
+    "build:contract:debug": {
+      "name": "build:contract:debug",
+      "command": "yarn build:contract:debug",
+      "runAtStart": false
+    },
+    "build:web": {
+      "name": "build:web",
+      "command": "yarn build:web",
+      "runAtStart": false
+    },
+    "dev:deploy:contract": {
+      "name": "dev:deploy:contract",
+      "command": "yarn dev:deploy:contract",
+      "runAtStart": false
+    },
+    "deploy:contract": {
+      "name": "deploy:contract",
+      "command": "yarn deploy:contract",
+      "runAtStart": false
+    },
+    "deploy:pages": {
+      "name": "deploy:pages",
+      "command": "yarn deploy:pages",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "yarn deploy",
+      "runAtStart": false
+    },
+    "prestart": {
+      "name": "prestart",
+      "command": "yarn prestart",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    }
+  }
+}
